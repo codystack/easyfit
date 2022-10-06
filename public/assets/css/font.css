@@ -1,0 +1,31 @@
+@font-face {
+    font-family: "GalanoGrotesqueBold";
+    src: url("../fonts/GalanoGrotesqueBold.otf") format("truetype"), url("../fonts/GalanoGrotesqueBold.otf");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Light.eot');
+    src: local('TT Firs Neue Light'), local('TTFirsNeue-Light'),
+        url('TTFirsNeue-Light.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-Light.woff2') format('woff2'),
+        url('TTFirsNeue-Light.woff') format('woff'),
+        url('TTFirsNeue-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'TT Firs Neue';
+    src: url('TTFirsNeue-Regular.eot');
+    src: local('TT Firs Neue Regular'), local('TTFirsNeue-Regular'),
+        url('TTFirsNeue-Regular.eot?#iefix') format('embedded-opentype'),
+        url('TTFirsNeue-Regular.woff2') format('woff2'),
+        url('TTFirsNeue-Regular.woff') format('woff'),
+        url('TTFirsNeue-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}

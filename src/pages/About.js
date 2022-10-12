@@ -29,7 +29,7 @@ export default function About() {
                     <div className="jarallax-img" style={{backgroundImage: 'url(assets/img/aboutimg.jpeg)'}} />
                 </div>
             </div>
-            <div className="row py-5 mt-n2 mt-sm-0 mt-md-2 mt-lg-4 mt-xl-5 mb-xl-5">
+            <div className="row pt-5 mt-n2 mt-sm-0 mt-md-2 mt-lg-4 mt-xl-5 mb-xl-5">
                 <div className="col-md-4 col-lg-5">
                     <div className="fs-sm text-uppercase mb-3">Who we are</div>
                     <h2 className="display-6">Healthy food for busy people.</h2>
@@ -46,54 +46,18 @@ export default function About() {
             <div className="row align-items-center pt-2 pt-sm-3 pt-md-4 pt-lg-5 mt-xl-2 mt-xxl-3">
             <div className="col-md-6 col-xl-5 pb-3 pb-md-0 mb-4 mb-md-0">
                 <div className="ratio ratio-1x1 d-flex align-items-center position-relative rounded-circle overflow-hidden bg-size-cover mx-auto" style={{maxWidth: '530px', backgroundImage: 'url(assets/img/Arinola.jpeg)'}}>
-                <div className="bg-black position-absolute top-0 start-0 w-100 h-100 opacity-50" />
-                <div className="dark-mode position-relative zindex-2 p-4">
-                    <div className="text-center mx-auto" style={{maxWidth: '275px'}}><span className="d-block fs-sm text-uppercase mb-3">How we work</span>
-                    <h2 className="display-6 mb-0">The key to success</h2>
+                    <div className="bg-black position-absolute top-0 start-0 w-100 h-100 opacity-50" />
+                    <div className="position-relative zindex-2 p-4">
+                        <div className="text-center mx-auto" style={{maxWidth: '275px'}}></div>
                     </div>
-                </div>
                 </div>
             </div>
             <div className="col-md-6 col-xl-5 offset-xl-1">
                 <div className="ps-md-4 ps-xl-0">
-                <div className="steps steps-hoverable">
-                    <div className="step py-3 py-xl-4">
-                    <div className="step-number">
-                        <div className="step-number-inner">01</div>
-                    </div>
-                    <div className="step-body">
-                        <h3 className="h5 pb-1 mb-2">Formulation of the problem</h3>
-                        <p className="mb-0">Find aute irure dolor in reprehenderi voluptate velit esse cillum dolore eu fugiat nulla pariatur am luctus.</p>
-                    </div>
-                    </div>
-                    <div className="step py-3 py-xl-4">
-                    <div className="step-number">
-                        <div className="step-number-inner">02</div>
-                    </div>
-                    <div className="step-body">
-                        <h3 className="h5 pb-1 mb-2">Assessment of the current state</h3>
-                        <p className="mb-0">Risus quam quis at euismod vitae dui elementu eu in diam malesuada mattis ut urna integer erat nisi nibh.</p>
-                    </div>
-                    </div>
-                    <div className="step py-3 py-xl-4">
-                    <div className="step-number">
-                        <div className="step-number-inner">03</div>
-                    </div>
-                    <div className="step-body">
-                        <h3 className="h5 pb-1 mb-2">Business plan creation</h3>
-                        <p className="mb-0">A sagittis morbi massa venenatis, egestas viverra ac elit nibh tellus nisi in nec tellus mauris feugiat gravida.</p>
-                    </div>
-                    </div>
-                    <div className="step py-3 py-xl-4">
-                    <div className="step-number">
-                        <div className="step-number-inner">04</div>
-                    </div>
-                    <div className="step-body">
-                        <h3 className="h5 pb-1 mb-2">Strategy implementation</h3>
-                        <p className="mb-0">Elementum purus, nisl ipsum sit. Amet sit praesent proin sit cras. Leo sed praesent nunc  vel nec risus.</p>
-                    </div>
-                    </div>
-                </div>
+                <div className="fs-sm text-uppercase mb-3">About our ceo</div>
+                <h2 className="display-6">Arinola Odunuga</h2>
+                    <p className="fs-xl">A certified fitness trainer and nutrition coach first started Easyfit in 2021 to fill a missing element in the health and fitness industry in Nigeria - taking the hassle of planning and preparing healthy meals away.  </p>
+                    <p className="fs-xl">We  don’t just save you the trip to the market/grocery store, we make your health and fitness journey a convenient,delicious and positive experience. No shopping. No cooking. No cleaning. No calculating calories and macros.</p>
                 </div>
             </div>
             </div>

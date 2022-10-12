@@ -22,7 +22,7 @@ export default function Navbarlight() {
                     </li>
 
                     <li className="nav-item">
-                        <Link className="nav-link" to="/about">How it works</Link>
+                        <Link className="nav-link" to="/how-it-works">How it works</Link>
                     </li>
 
                     <li className="nav-item">

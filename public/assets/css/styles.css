@@ -56,7 +56,7 @@
     --ar-border-style: solid;
     --ar-border-color: #e3e9ef;
     --ar-border-color-translucent: rgba(0, 0, 0, 0.175);
-    --ar-border-radius: 1rem;
+    --ar-border-radius: 0.6rem;
     --ar-border-radius-sm: calc(var(--ar-border-radius) * 0.75);
     --ar-border-radius-lg: calc(var(--ar-border-radius) * 1.125);
     --ar-border-radius-xl: calc(var(--ar-border-radius) * 1.5);
@@ -8535,7 +8535,7 @@ fieldset:disabled .btn {
 }
 
 .fs-xl {
-    font-size: calc(var(--ar-body-font-size) * 1.25) !important
+    font-size: calc(var(--ar-body-font-size) * 3.25) !important
 }
 
 .fs-lg {

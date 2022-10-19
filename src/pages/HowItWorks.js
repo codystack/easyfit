@@ -17,7 +17,7 @@ export default function HowDoesItWork() {
                 <div className="row align-items-center g-0">
                     <div className="col-md-6 offset-xl-1 text-center text-md-start">
                         <div className="pt-4 px-4 px-sm-5 pe-md-0 ps-xl-4">
-                            <h1 className="display-3 mb-0 pt-3 pt-md-0">How it works</h1>
+                            <h1 className="display-3 mb-0 pt-3 pt-md-0" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>How it works</h1>
                         </div>
                     </div>
                     <div className="col-md-6 col-xl-5 d-flex justify-content-end"><img src="assets/img/howitworks.png" width={491} alt="Banner" /></div>

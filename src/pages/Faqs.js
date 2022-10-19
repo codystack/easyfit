@@ -13,7 +13,7 @@ export default function Faqs() {
             <div className="col-md-6 offset-xl-1 text-center text-md-start">
               <div className="pt-4 px-4 px-sm-5 pe-md-0 ps-xl-4">
                 <p className="fs-xs text-uppercase pt-3 pt-md-0 mb-0">Frequently Asked Questions</p>
-                <h1 className="display-7 mb-0">FAQ</h1>
+                <h1 className="display-7 mb-0" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>FAQ</h1>
               </div>
             </div>
             <div className="col-md-6 col-xl-5 d-flex justify-content-end"><img src="assets/img/faq.png" width={491} alt="Banner" /></div>

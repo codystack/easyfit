@@ -5,6 +5,8 @@ import Contact from './pages/Contact';
 import Home from './pages/Home';
 import About from './pages/About';
 import HowItWorks from './pages/HowItWorks';
+import PrivacyPolicy from './pages/PrivacyPolicy';
+import Terms from './pages/Terms';
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
             <Route path='/how-it-works' element={<HowItWorks />} />
             <Route path='/contact' element={<Contact />} />
             <Route path='/faq' element={<Faqs />} />
+            <Route path='/terms' element={<Terms />} />
+            <Route path='/privacy' element={<PrivacyPolicy />} />
           </Routes>
         </ScrollToTop>
       </BrowserRouter>

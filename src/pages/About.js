@@ -54,8 +54,8 @@ export default function About() {
             </div>
             <div className="col-md-6 col-xl-5 offset-xl-1">
                 <div className="ps-md-4 ps-xl-0">
-                <div className="fs-sm text-uppercase mb-3">About our ceo</div>
-                <h2 className="display-6">Arinola Odunuga</h2>
+                    <div className="fs-sm text-uppercase mb-3">About our ceo</div>
+                    <h2 className="display-6">Arinola Odunuga</h2>
                     <p className="fs-lg">A certified fitness trainer and nutrition coach first started Easyfit in 2021 to fill a missing element in the health and fitness industry in Nigeria - taking the hassle of planning and preparing healthy meals away.  </p>
                     <p className="fs-lg">We  don’t just save you the trip to the market/grocery store, we make your health and fitness journey a convenient,delicious and positive experience. No shopping. No cooking. No cleaning. No calculating calories and macros.</p>
                 </div>

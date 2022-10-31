@@ -375,7 +375,7 @@ export default function Terms() {
                     <h2 className="" style={{fontFamily: 'pt-serif, serif', fontWeight: '700', fontStyle: 'normal'}}>18. Indemnity</h2>
                 </div>
                 <div className="col-md-8 col-xl-8">
-                    <p className="fs-lg">18.1 You shall indemnify and hold harmless The Vineyard Mart, its owner's, licensee, affiliates,
+                    <p className="fs-lg">18.1 You shall indemnify and hold harmless Easy Fit Healthy Meals, its owner's, licensee, affiliates,
                         subsidiaries, group companies (as applicable) and their respective officers, directors, agents, and
                         employees, from any claim or demand, or actions including reasonable attorneys' fees, made by any
                         third party or penalty imposed due to or arising out of your breach of this Terms of Use, privacy Policy

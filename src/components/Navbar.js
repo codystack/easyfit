@@ -9,10 +9,10 @@ export default function Navbar() {
             <a className="navbar-brand pe-sm-3" href="./">
                 <img src="assets/img/logo.svg" alt="logo" width={'150px'} />
             </a>
-            <a className="btn btn-light btn-sm rounded-pill fs-sm order-lg-3 d-none d-sm-inline-flex" href="#faq" target="_blank" rel="noopener">Get Started</a>
+            <a className="btn btn-light btn-sm fs-sm order-lg-3 d-none d-sm-inline-flex" href="#faq" target="_blank" rel="noopener">Get Started</a>
             <button className="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"><span className="navbar-toggler-icon" /></button>
             <nav className="collapse navbar-collapse" id="navbarNav">
-              <ul className="navbar-nav navbar-nav-scroll mx-auto" style={{Height: '520px'}}>
+              <ul className="navbar-nav navbar-nav-scroll" style={{Height: '520px'}}>
                 <li className="nav-item">
                     <Link className="nav-link" to="/">Home</Link>
                 </li>
@@ -34,8 +34,7 @@ export default function Navbar() {
                 </li>
               </ul>
                 <div className="d-sm-none p-3 mt-n3">
-                    <a className="btn btn-primary w-100  mb-1" href="/" target="_blank" rel="noopener">
-                        <i className="ai-cart fs-xl me-2 ms-n1" />Get Started</a>
+                    <a className="btn btn-primary w-100  mb-1" href="/" target="_blank" rel="noopener">Get Started</a>
                 </div>
             </nav>
           </div>

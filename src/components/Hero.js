@@ -1,11 +1,11 @@
 import React from 'react'
 import { Swiper, SwiperSlide } from 'swiper/react'
-import { Navigation, Pagination, Autoplay } from 'swiper'
+import { Pagination, Autoplay, EffectFade } from 'swiper'
 
 import 'swiper/css'
-import 'swiper/css/navigation'
 import 'swiper/css/pagination'
 import 'swiper/css/autoplay'
+import 'swiper/css/effect-fade'
 
 export default function Hero() {
   return (
@@ -14,34 +14,49 @@ export default function Hero() {
             {/* Background image slider*/}
             <Swiper
                 // install Swiper modules
-                modules={[Navigation, Pagination, Autoplay]}
+                modules={[Pagination, Autoplay, EffectFade]}
+                pagination
                 slidesPerView={1}
-                navigation
-                effect='fade'
+                effect
                 speed={800}
                 autoplay={{ delay: 7000 }}
-                pagination={{ clickable: true }}
             >
-            <div className=" position-absolute top-0 start-0 w-100 h-100">
+            <div className="swiper swiper-scale-effect position-absolute top-0 start-0 w-100 h-100">
                 
                 <div className="swiper-wrapper">
                     <SwiperSlide>
                         <div className="swiper-slide">
-                            <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/hero02.jpg)'}} />
-                        </div>
-                    </SwiperSlide>
-
-                    <SwiperSlide>
-                        <div className="swipe-slide">
-                            <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/hero02.jpg)'}} />
+                            <div className="bg-position-top-center">
+                                <img src='assets/img/slider/hero1.jpg' alt='' />
+                            </div>
                         </div>
                     </SwiperSlide>
 
                     <SwiperSlide>
                         <div className="swiper-slide">
-                            <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/hero03.jpg)'}} />
+                            <div className="bg-position-top-center">
+                                <img src='assets/img/slider/hero2.jpg' alt='' />
+                            </div>
                         </div>
                     </SwiperSlide>
+
+                    {/* <SwiperSlide>
+                        <img src='assets/img/slider/hero2.jpg' alt='' />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src='assets/img/slider/hero3.jpg' alt='' />
+                    </SwiperSlide>
+
+                    <SwiperSlide>
+                        <img src='assets/img/slider/hero4.jpg' alt='' />
+                    </SwiperSlide> */}
+
+                    {/* <SwiperSlide>
+                        <div className="swiper-slide">
+                            <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/hero03.jpg)'}} />
+                        </div>
+                    </SwiperSlide> */}
                 </div>
                 <div className="swiper-pagination mb-4" />
                 

@@ -29,7 +29,7 @@ export default function Testimonials() {
                 <div className="card border-0 bg-faded-info h-100 text-center">
                     <div className="polygon-avatar bg-info mx-auto translate-middle-y"><img src="assets/img/landing/mobile-app-showcase/testimonials/01.png" alt="Nick Williams" /></div>
                     <div className="card-body pt-0 mt-n4">
-                    <p className="card-text fs-xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis libero vitae sem ornare ornare. Aliquam ut sapien vitae quam blandit egestas. Quisque nulla elit, fermentum et tincidunt tempor, rutrum at leo. Curabitur massa quam, aliquam eu sapien sed.</p>
+                    <p className="card-text fs-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis libero vitae sem ornare ornare. Aliquam ut sapien vitae quam blandit egestas. Quisque nulla elit, fermentum et tincidunt tempor, rutrum at leo. Curabitur massa quam, aliquam eu sapien sed.</p>
                     </div>
                     <div className="card-footer border-0 pt-0">
                     <div className="h4 mb-1">Nick Williams</div><span>Student</span>

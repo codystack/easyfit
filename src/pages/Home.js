@@ -15,7 +15,7 @@ export default function Home() {
           <div className="swiper swiper-scale-effect position-absolute top-0 start-0 w-100 h-100">
             <div className="swiper-wrapper">
               <div className="swiper-slide">
-                <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/hero/01.jpg)'}} />
+                <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/hero02.jpg)'}} />
               </div>
               <div className="swiper-slide">
                 <div className="swiper-slide-cover bg-position-top-center" style={{backgroundImage: 'url(assets/img/landing/yoga-studio/hero/02.jpg)'}} />

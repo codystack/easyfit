@@ -17,62 +17,133 @@ export default function Faq() {
               </div>
               <div className="col-md-8 col-lg-7 offset-lg-1">
                 <div className="accordion" id="faq">
+                  
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingOne">
-                      <button className="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne" aria-expanded="true" aria-controls="questionOne">Is there a free trial?</button>
+                      <button className="accordion-button text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionOne" aria-expanded="true" aria-controls="questionOne">How does the pricing work?</button>
                     </h3>
                     <div className="accordion-collapse collapse show" id="questionOne" aria-labelledby="headingOne" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Adipiscing sagittis neque egestas id platea accumsan. Morbi inpa platea urna curabitur habitant pulvinar lacinia neque. Netus gravida amet, aliquam quam turpis aliquet cras. Find aute irure dolor in reprehenderit voluptate velit esse cillum dolore eu nulla pariatur. Sit amet, adipiscing elit.</div>
+                      <div className="accordion-body fs-sm">Our meals range from N3,000 to N7,000 based on your preference and how much you’re ordering at once. You get a 5% discount if you order 10 or more meals a week and 10% discount for 21 or more meals a week.</div>
                     </div>
                   </div>
+
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingTwo">
-                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">How do refunds work?</button>
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionTwo" aria-expanded="false" aria-controls="questionTwo">When are meals delivered?</button>
                     </h3>
                     <div className="accordion-collapse collapse" id="questionTwo" aria-labelledby="headingTwo" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Quisque rutrum sit amet magna sit amet tristique. Vivamus rhoncus ac purus vitae convallis. Aliquam erat volutpat. Proin egestas, mauris ut semper semper, ipsum felis mattis ligula, et porttitor ante arcu nec ante. Aliquam congue est eu turpis sollicitudin, et ullamcorper tortor aliquam.</div>
+                      <div className="accordion-body fs-sm">We deliver daily, twice a week or once weekly based on your delivery preference.</div>
                     </div>
                   </div>
+
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingThree">
-                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree" aria-expanded="false" aria-controls="questionThree">Do you offer student discounts?</button>
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionThree" aria-expanded="false" aria-controls="questionThree">How do i cancel or pause my account?</button>
                     </h3>
                     <div className="accordion-collapse collapse" id="questionThree" aria-labelledby="headingThree" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Proin ac quam eget velit luctus tincidunt vel in nunc. Maecenas cursus erat lacus, id interdum elit accumsan in. Mauris placerat dapibus sem, condimentum interdum nulla varius ac. Mauris quam mauris, rhoncus et tortor vel, tempus dignissim libero. Curabitur sed odio in odio elementum cursus.</div>
+                      <div className="accordion-body fs-sm">Coming Soon</div>
                     </div>
                   </div>
+
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingFour">
-                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour" aria-expanded="false" aria-controls="questionFour">What happens if I run out of credit?</button>
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionFour" aria-expanded="false" aria-controls="questionFour">What do you do with the food containers?</button>
                     </h3>
                     <div className="accordion-collapse collapse" id="questionFour" aria-labelledby="headingFour" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ac pretium dui. Aliquam rutrum justo lorem, in efficitur odio efficitur vel. Integer mattis, neque malesuada sagittis porttitor, enim tortor ullamcorper diam, id eleifend sem mauris at turpis. Curabitur sed nisi nec ligula dictum.</div>
+                      <div className="accordion-body fs-sm">Whatever you want! they are recyclable and reusable. You can either clean and keep them or donate them locally.</div>
                     </div>
                   </div>
+
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingFive">
-                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionFive" aria-expanded="false" aria-controls="questionFive">Do you have monthly and yearly billing options?</button>
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionFive" aria-expanded="false" aria-controls="questionFive">Can i freeze my meals?</button>
                     </h3>
                     <div className="accordion-collapse collapse" id="questionFive" aria-labelledby="headingFive" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Vestibulum faucibus lectus eget augue pharetra, quis semper lectus gravida. Vestibulum pretium in elit sed iaculis. Curabitur elementum turpis at ipsum molestie, id maximus odio tincidunt. Praesent id lacinia orci. Phasellus at varius arcu. Ut nec lobortis velit.</div>
+                      <div className="accordion-body fs-sm">Yes, the containers are freezer friendly but we recommend you freeze only meals that are labelled as freezer friendly.</div>
                     </div>
                   </div>
+
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingSix">
-                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionSix" aria-expanded="false" aria-controls="questionSix">What happens when I change plans?</button>
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionSix" aria-expanded="false" aria-controls="questionSix">I bought a meal plan already, please can you help me prepare the meals?</button>
                     </h3>
                     <div className="accordion-collapse collapse" id="questionSix" aria-labelledby="headingSix" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Nunc non placerat mi, sit amet hendrerit lacus. Quisque cursus lorem vitae placerat ultrices. Morbi ut orci sit amet quam vulputate lobortis. Donec vulputate mi nec nisi tincidunt commodo. Nullam efficitur tincidunt tellus accumsan pellentesque. Suspendisse elementum blandit orci.</div>
+                      <div className="accordion-body fs-sm">No, we don’t offer this service.</div>
                     </div>
                   </div>
+
                   <div className="accordion-item bg-light">
                     <h3 className="accordion-header" id="headingSeven">
-                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionSeven" aria-expanded="false" aria-controls="questionSeven">How do I cancel my paid plan?</button>
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#questionSeven" aria-expanded="false" aria-controls="questionSeven">Do you have vigan options?</button>
                     </h3>
                     <div className="accordion-collapse collapse" id="questionSeven" aria-labelledby="headingSeven" data-bs-parent="#faq">
-                      <div className="accordion-body fs-sm">Morbi a consequat diam. Fusce sit amet faucibus erat. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Quisque id est dictum, suscipit neque id, ornare nibh. Cras lacinia, est non ultrices porttitor, arcu orci rhoncus leo, egestas condimentum lorem.</div>
+                      <div className="accordion-body fs-sm">Not at the moment.</div>
                     </div>
                   </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading8">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question8" aria-expanded="false" aria-controls="question8">How do I book a consultation?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question8" aria-labelledby="heading8" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">Please send an email to <a href='mailto:easyfitng@gmail.com'>easyfitng@gmail.com</a> or call us on.</div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading9">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question9" aria-expanded="false" aria-controls="question9">I’m trying to lose weight but also build muscle, can your meals help with that?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question9" aria-labelledby="heading9" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">Yes they can, make sure to pick the meals with higher protein content from our menu.</div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading10">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question10" aria-expanded="false" aria-controls="question10">How much weight am I guaranteed to lose?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question10" aria-labelledby="heading10" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">We can’t guarantee specific figures because the amount you lose is dependent on a couple of factors. Our customers lose an average of 3kg  per month.</div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading11">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question11" aria-expanded="false" aria-controls="question11">Do you offer juice cleanse/detox?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question11" aria-labelledby="heading11" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">No, we do not.</div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading12">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question12" aria-expanded="false" aria-controls="question12">Do you have low carbohydrate meal options?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question12" aria-labelledby="heading12" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">Yes, we do. The macros are labeled on each meal to help with selection.</div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading13">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question13" aria-expanded="false" aria-controls="question13">How do I order?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question13" aria-labelledby="heading13" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">All orders are completed on our app through our easy checkout process.</div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item bg-light">
+                    <h3 className="accordion-header" id="heading14">
+                      <button className="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#question14" aria-expanded="false" aria-controls="question14">Is there a discount for referring a friend?</button>
+                    </h3>
+                    <div className="accordion-collapse collapse" id="question14" aria-labelledby="heading14" data-bs-parent="#faq">
+                      <div className="accordion-body fs-sm">Yes! we apply 10% off your next order after you refer someone. Have them put in your user name in the referral section at checkout.</div>
+                    </div>
+                  </div>
+
                 </div>
               </div>
             </div>

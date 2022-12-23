@@ -1,5 +1,4 @@
 import React from 'react'
-import Faq from '../components/Faq'
 import Footer from '../components/Footer'
 import Navbarlight from '../components/Navbarlight'
 

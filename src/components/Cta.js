@@ -10,7 +10,7 @@ export default function Cta() {
                 <div className="row align-items-center position-relative zindex-2">
                 <div className="col-md-6 col-lg-5 col-xl-4 offset-lg-1 pb-sm-3 pt-5 py-md-0 py-lg-5" data-aos="fade-up" data-aos-duration={500} data-aos-offset={250} data-disable-parallax-down="lg">
                     <h2 className="display-3 text-white text-center text-md-start mb-4 mb-lg-5">Ready to <br className="d-none d-xxl-inline" />Get Started?</h2>
-                    <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start"><a className="btn btn-light btn-lg px-3 py-2 me-sm-3 mb-3 mb-sm-0" href="#"><img className="mx-1" src="assets/img/market/appstore-dark.svg" width={136} alt="App Store" /></a><a className="btn btn-light btn-lg px-3 py-2" href="#"><img className="mx-1" src="assets/img/market/googleplay-dark.svg" width={135} alt="Google Play" /></a></div>
+                    <div className="d-flex flex-column flex-sm-row justify-content-center justify-content-md-start"><a className="btn btn-light btn-lg px-3 py-2 me-sm-3 mb-3 mb-sm-0" href="/"><img className="mx-1" src="assets/img/market/appstore-dark.svg" width={136} alt="App Store" /></a><a className="btn btn-light btn-lg px-3 py-2" href="/"><img className="mx-1" src="assets/img/market/googleplay-dark.svg" width={135} alt="Google Play" /></a></div>
                 </div>
                 <div className="col-md-6 col-lg-5 offset-xl-1">
                     {/* Image visible on screens < 768px*/}<img className="d-block d-md-none mx-auto" src="assets/img/landing/mobile-app-showcase/features/03.png" width={420} alt="App screen" />
